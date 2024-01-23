@@ -42,7 +42,6 @@ class Homepage : AppCompatActivity(), EventListener {
                 Log.d("widget", token.toString())
                 Log.d("widget", consumerId.toString())
                 Log.d("widget", environment.toString())
-                Log.d("widget", config.url.toString())
                 config.open();
             }
         }
