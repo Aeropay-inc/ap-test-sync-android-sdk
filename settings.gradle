@@ -3,6 +3,9 @@ pluginManagement {
         google()
         mavenCentral()
         gradlePluginPortal()
+//        maven() {
+//            url 'https://s01.oss.sonatype.org/content/repositories/comaerosync-1034'
+//        }
     }
 }
 dependencyResolutionManagement {
@@ -10,6 +13,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+//        maven() {
+//            url 'https://s01.oss.sonatype.org/content/repositories/comaerosync-1034'
+//        }
+
     }
 }
 rootProject.name = "test-client-android"
